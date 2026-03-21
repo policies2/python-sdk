@@ -5,7 +5,7 @@ import json
 import unittest
 from urllib.error import HTTPError, URLError
 
-from policies2_sdk import (
+from policies2 import (
     AuthenticationError,
     AuthorizationError,
     ConfigurationError,

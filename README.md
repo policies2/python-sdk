@@ -1,4 +1,4 @@
-# `policies2-python-sdk`
+# `policies2`
 
 Execute stored policies and flows over REST using API keys only.
 
@@ -13,7 +13,7 @@ It does not support creating, updating, publishing, or administering resources.
 ## Usage
 
 ```python
-from policies2_sdk import ExecutionClient, ExecutionClientConfig, Reference, TransportConfig
+from policies2 import ExecutionClient, ExecutionClientConfig, Reference, TransportConfig
 
 client = ExecutionClient(
     ExecutionClientConfig(
@@ -34,7 +34,7 @@ print(result.result)
 ## Install
 
 ```bash
-pip install -e .
+pip install policies2
 ```
 
 Or, if you prefer requirements files:
@@ -47,4 +47,3 @@ pip install -r requirements-dev.txt
 
 - REST policy execution: [`examples/policy_rest.py`](./examples/policy_rest.py)
 - REST flow execution: [`examples/flow_rest.py`](./examples/flow_rest.py)
-

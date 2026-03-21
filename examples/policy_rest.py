@@ -1,4 +1,4 @@
-from policies2_sdk import ExecutionClient, ExecutionClientConfig, Reference, TransportConfig
+from policies2 import ExecutionClient, ExecutionClientConfig, Reference, TransportConfig
 
 
 client = ExecutionClient(
