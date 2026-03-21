@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-policies2-python-sdk = {file = "file:///home/keloran/Work/policies/python-sdk", editable = true}
+policies2 = {file = "file:///home/keloran/Work/policies/python-sdk", editable = true}
 
 [dev-packages]
 
