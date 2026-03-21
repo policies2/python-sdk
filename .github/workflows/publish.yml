@@ -22,7 +22,7 @@ jobs:
           python-version: '3.12'
 
       - name: Bump version in project files
-        uses: keloran/version-bump@v1
+        uses: keloran/version-bump@main
 
       - name: Install build dependencies
         run: |
