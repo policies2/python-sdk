@@ -1,0 +1,12 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+policies2-python-sdk = {file = "file:///home/keloran/Work/policies/python-sdk", editable = true}
+
+[dev-packages]
+
+[requires]
+python_version = "3.14"

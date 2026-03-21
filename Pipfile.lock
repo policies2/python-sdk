@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "5b455b0df2ab9aebe6bda8a2ff31be71dceb0fc2bd693244ab405c9280a38519"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.14"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "policies2-python-sdk": {
+            "editable": true,
+            "file": "."
+        }
+    },
+    "develop": {}
+}

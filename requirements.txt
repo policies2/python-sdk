@@ -1,0 +1,2 @@
+# Runtime dependencies for the SDK package.
+# The SDK is currently stdlib-only, so this file is intentionally empty.

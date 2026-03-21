@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/policies2_python_sdk.egg-info/PKG-INFO
+src/policies2_python_sdk.egg-info/SOURCES.txt
+src/policies2_python_sdk.egg-info/dependency_links.txt
+src/policies2_python_sdk.egg-info/top_level.txt
+src/policies2_sdk/__init__.py
+src/policies2_sdk/client.py
+src/policies2_sdk/errors.py
+src/policies2_sdk/types.py
+tests/test_client.py

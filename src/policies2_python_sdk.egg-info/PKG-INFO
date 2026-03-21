@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: policies2-python-sdk
+Version: 0.1.0
+Summary: Execute stored policies and flows over REST using API keys
+Requires-Python: >=3.10
