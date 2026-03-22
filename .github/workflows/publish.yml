@@ -22,7 +22,7 @@ jobs:
           python-version: '3.12'
 
       - name: Bump version in project files
-        uses: keloran/version-bump@main
+        uses: keloran/version-bump@v1
         with:
           version: ${{ github.event.release.tag_name || github.ref_name }}
 
